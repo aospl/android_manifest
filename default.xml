@@ -439,10 +439,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="hardware/samsung" name="aospl/hardware_samsung" remote="github" revision="android-4.4" />
-  <project path="device/samsung/i9300" name="aospl/device_samsung_i9300" remote="github" revision="android-4.4" />
-  <project path="device/samsung/smdk4412-common" name="aospl/device_samsung_smdk4412-common" remote="github" revision="android-4.4" />
-  <project path="kernel/samsung/smdk4412" name="aospl/kernel_samsung_smdk4412" remote="github" revision="android-4.4" />
   <project path="vendor/omni" name="aospl/vendor_omni" remote="github" revision="android-4.4" />
-  <project path="vendor/samsung" name="aospl/vendor_samsung" remote="github" revision="android-4.4" />
+
+  <project path="hardware/samsung" name="aospl/hardware_samsung" remote="github" revision="android-4.4-e210k" />
+  <project path="device/samsung/i9300" name="aospl/device_samsung_i9300" remote="github" revision="android-4.4-e210k" />
+  <project path="device/samsung/smdk4412-common" name="aospl/device_samsung_smdk4412-common" remote="github" revision="android-4.4-e210k" />
+  <project path="kernel/samsung/smdk4412" name="aospl/kernel_samsung_smdk4412" remote="github" revision="android-4.4" />
+  <project path="vendor/samsung" name="aospl/vendor_samsung" remote="github" revision="android-4.4-e210k" />
 </manifest>
